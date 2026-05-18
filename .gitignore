@@ -1,0 +1,21 @@
+.DS_Store
+*.log
+node_modules/
+
+# Never commit raw social-media corpora or paid subscriber captures.
+references/sources/**/raw/*
+!references/sources/public/search-dom/raw/
+!references/sources/public/search-dom/raw/aleabitoreddit-public-search-before-2025-07-01-check.json
+
+references/sources/subscriber/
+
+# Local browser/session artifacts.
+*.cookies
+*.har
+*.sqlite
+*.session
+storage-state*.json
+
+# Large local exports.
+exports/
+tmp/
