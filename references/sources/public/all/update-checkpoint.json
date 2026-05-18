@@ -1,0 +1,17 @@
+{
+  "account": "aleabitoreddit",
+  "scope": "public-known-corpus",
+  "recordedAt": "2026-05-18T03:46:03Z",
+  "generatedFrom": "references/sources/public/all/index.md",
+  "lastKnownTweet": {
+    "id": "2055865012565254591",
+    "url": "https://x.com/aleabitoreddit/status/2055865012565254591",
+    "datetime": "2026-05-17T04:16:29.000Z"
+  },
+  "publicKnownRange": {
+    "oldest": "2025-07-02T10:48:09.000Z",
+    "newest": "2026-05-17T04:16:29.000Z",
+    "count": 5171
+  },
+  "updateRule": "For the next public-corpus refresh, fetch public posts newer than lastKnownTweet.datetime, then merge and dedupe by tweet id."
+}
